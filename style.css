@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#start {
+    background-color: green;
+}
+
+#pause {
+    background-color: yellow;
+}
+
+#reset {
+    background-color: red;
+}
+
+#lap {
+    background-color: blue;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.buttons button:disabled {
+    background-color: #ccc;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    padding: 5px;
+    border-bottom: 3px solid #ddd;
+    background-color: whitesmoke;
+}
